@@ -1,0 +1,133 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="Team.css">
+</head>
+<body>
+
+<div class="about-section">
+  <h1>About Us Page</h1>
+  <p><b>TEAM ASYTECH</b></p>
+  <p>We are a group of second-year undergraduate students ready to change the world one software at a time.</p>
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="pete.jpg" alt="Peter Emmanuel Amexo" style="width:373px; height:350px; margin-left: 20px; margin-top: 15px;">
+      <div class="container">
+        <h2>Peter Emmanuel Amexo (CS)</h2>
+        <p class="title">Team Leader</p>
+        <p>Epamexo@st.ug.edu.gh</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="maw.jpg" alt="Mawuli Tettey" style="width:385px; height:350px; margin-left: 15px; margin-top: 15px;">
+      <div class="container">
+        <h2>Mawuli Tettey (CS)</h2>
+        <p class="title">Member</p>
+        <p>mtettey006@st.ug.edu.gh</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="ejt.jpg" alt="Jude Etornam Tetteh" style="width:373px; height:350px; margin-left: 20px; margin-top: 15px;" >
+      <div class="container">
+        <h2>Jude Etornam Tetteh (IT)</h2>
+        <p class="title">Member</p>
+        <p>jetetteh002@st.ug.edu.gh</p>
+      </div>
+    </div>
+  </div>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="marf.jpg" alt="Samuel Yeboah Marfo" style="width:373px; height:350px; margin-left: 20px; margin-top: 15px;">
+      <div class="container">
+        <h2>Samuel Yeboah Marfo (CS)</h2>
+        <p class="title">Member</p>
+        <p>samuel.ky.marfo@gmil.com</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="phil.jpg" alt="Philemon F.E. Forson" style="width:373px; height:350px; margin-left: 20px; margin-top: 15px;">
+      <div class="container">
+        <h2>Philemon F.E. Forson (CS)</h2>
+        <p class="title">Member</p>
+        <p>pfeforson@st.ug.edu.gh</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="marv.jpg" alt="Marvin N.O. Okaitei" style="width:373px; height:350px; margin-left: 20px; margin-top: 15px;">
+      <div class="container">
+        <h2>Marvin N.O. Okaitei (CS)</h2>
+        <p class="title">Member</p>
+        <p>marvinokaitei45@gmail.com</p>
+      </div>
+    </div>
+  </div>  
+<div class="row">
+  <div class="column" style="margin-left: 450px;">
+    <div class="card">
+      <img src="irene.jpg" alt="Irene N.A. Larbi" style="width:373px; height:350px; margin-left: 20px; margin-top: 15px;">
+      <div class="container">
+        <h2>Irene N.A. Larbi (IT)</h2>
+        <p class="title">Member</p>
+        <p>indlarbi@st.ug.edu.gh</p>
+      </div>
+    </div>
+  </div>  
+  
+</div>
+</div>
+<script>
+/* Set the width of the side navigation to 250px and the left margin of the page content to 250px */
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginRight = "250px";
+}
+
+/* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginRight = "0";
+}
+
+function openPage(pageName, elmnt, color) {
+  // Hide all elements with class="tabcontent" by default */
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0;  i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  // Remove the background color of all tablinks/buttons
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+
+  // Show the specific tab content
+  document.getElementById(pageName).style.display = "block";
+
+  // Add the specific color to the button used to open the tab content
+  elmnt.style.backgroundColor = color;
+}
+</script>
+
+</body>
+</html>
